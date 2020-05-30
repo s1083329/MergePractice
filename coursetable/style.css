@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color:rgb(204, 212, 88);
+}
+table{
+   width:60%;
+   margin:auto;
+    font-size:1.5em;
+font-family:微軟正黑體;
+ color:rgb(103, 103, 107)
+}
+h1{
+    font-size:50px;
+font-family:微軟正黑體;
+ color:rgb(103, 103, 107)
+}
+td{
+    border-bottom:1px solid rgb(243, 162, 137);
+}

@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family:微軟正黑體;
+}
+canvas{
+    border:2px soild black;
+    background-image: url(images/grasses68.gif);
+}
+#talkBox{
+    height:20px;
+    color: blue;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:微軟正黑體;
+
+}
