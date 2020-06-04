@@ -1,13 +1,15 @@
 let playList = [
-    "UFFFu0UAcOQ",//i miss you
-    "_MnGZA0666I",//如初雪般走向你
-    "5yCkzTRfyGA",//remeber me
-    "41txh0FXTrk"//done for me
+    "ytzcP0V-zVI",//主題曲 
+    "wIuYAXbXbyw",//兔子拳
+    "tE1BqXdvs1Y",//小鴨鴨
+    "0VlqU78-tyc",//炒麵之歌
+    "0c-9_UAq4vc"//大象
 ];
 //播放起訖秒數
 let playTime = [
-    [30,44],
-    [44,57],
-    [00,15],
-    [58,72]  
+    [23,32],
+    [42,57],
+    [417,428],
+    [00,08],
+    [10,20]  
 ]

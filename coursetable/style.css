@@ -1,6 +1,7 @@
 body{
-    text-align: center;
-    background-color:rgb(204, 212, 88);
+    text-align: center; 
+    background-color: rgb(228, 226, 226);  
+background-repeat:no-repeat;
 }
 table{
    width:60%;

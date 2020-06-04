@@ -1,5 +1,7 @@
 let pictures=[
-    "RandomSelector/noodle.jpg",
-    "RandomSelector/rice.jpg",
-    "RandomSelector/dump.jpg"
+    "RandomSelector/a.jpg",
+    "RandomSelector/b.jpg",
+    "RandomSelector/c.jpg",
+    "RandomSelector/d.jpg",
+    "RandomSelector/e.jpg"
 ];

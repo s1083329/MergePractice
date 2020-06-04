@@ -12,7 +12,7 @@ $(document).ready(function(){
 function setTable(){
     $("#courseTable").empty();
     $("#courseTable").append(
-    "<tr><th>場次</th><th>時間</th><th>主題</th></tr>"  
+    "<tr><th>場次</th><th>時間</th><th>節目</th></tr>"  
     );
     let topicCount =topicsArray.length;
 
@@ -20,7 +20,7 @@ function setTable(){
     for(let x=0; x<topicCount; x++){
         let thisDate = new Date(startDate.getTime()+7*x*oneDayMilliseconds);
         let trSpecial = "<tr>";
-        if(topicsArray[x]=="隨機性"){
+        if(topicsArray[x]=="春日部野生王國"){
             trSpecial = "<tr style='background-color:lightyellow'>";}
        $("#courseTable").append(
             trSpecial +

@@ -28,6 +28,7 @@ $(document).ready(function(){
                             $("#question").text(finalAnswers[finalResult][0]);
                             $("#options").empty();
                             $("#options").append(finalAnswers[finalResult][1]+"<br><br>");
+                            $("img").attr("src",pictures[1]);
                             currentQuiz=null;
                             $("#startButton").attr("value","Restart");
                         }else{
