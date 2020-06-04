@@ -11,17 +11,17 @@ imgMain.onload = function(){
     ctx.drawImage(imgMain,0,0,80,130,currentImgMainX,currentImgMainY,200,200);
 };
 imgMountain = new Image();
-imgMountain.src="RPG/images/material.png";
+imgMountain.src="RPG/images/material.jpg";
 imgEnemy = new Image();
-imgEnemy.src="RPG/images/Enemy.png";
+imgEnemy.src="RPG/images/f5c0-hsmkfyp1898887-removebg-preview.png";
 imgMountain.onload = function(){
     imgEnemy.onload = function(){
         for(let x in mapArray){
-            if(mapArray[x] == 1){ctx.drawImage(imgMountain,32,65,32,32,x%3*200,Math.floor(x/3)*200,200,200);
+            if(mapArray[x] == 1){ctx.drawImage(imgMountain,0,0,50,70,x%3*200,Math.floor(x/3)*200,200,200);//左.右
             }
             else if(mapArray[x] == 3)
             {
-                ctx.drawImage(imgEnemy,7,40,104,135,x%3*200,Math.floor(x/3)*200,200,200);
+                ctx.drawImage(imgEnemy,-150,45,700,600,x%3*200,Math.floor(x/3)*200,200,200);
             }
         }
     }
@@ -87,11 +87,11 @@ $(document).keydown(function(event){
 
     switch(mapArray[targetBlock]){
         case undefined:
-            $("#talkBox").text("邊界");
+            $("#talkBox").text("撞牆了ㄚ~~");
             break;
 
         case 1:
-            $("#talkBox").text("有山");
+            $("#talkBox").text("ㄚ~~~有怪獸");
             break;
 
         case 2:
@@ -99,7 +99,7 @@ $(document).keydown(function(event){
             break;
 
         case 3:
-            $("#talkBox").text("哈囉");
+            $("#talkBox").text("汪");
             break;
             
     }
